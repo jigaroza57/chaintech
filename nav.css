@@ -1,0 +1,114 @@
+.navbar {
+  padding: 1rem 10rem; /* Padding for larger screens */
+}
+
+.navbar-nav .nav-link {
+  font-size: 1.2rem; /* Font size scaling */
+  font-weight: 500;
+  color: #fff !important;
+}
+
+.navbar-nav .nav-link.active {
+  color: #00ffa7 !important;
+}
+
+/* Add space between navbar items */
+.navbar-nav .nav-item {
+  margin: 0 8px; /* Adds horizontal spacing between each nav item */
+}
+
+.btn-signup {
+  background: #c9f31d;
+  border-radius: 200px;
+  width: 122px;
+  height: 46px;
+  color: #000;
+  font-weight: 600;
+}
+
+.btn-signup:hover {
+  background: #bfff0f;
+}
+
+/* Navbar center alignment */
+.navbar-center {
+  justify-content: center;
+}
+
+nav{
+    border-bottom: #ccc;
+}
+
+/* Responsive styles */
+@media (max-width: 991.98px) {
+  .navbar {
+    padding: 1rem 3rem; /* Adjust padding for medium screens */
+  }
+
+  .navbar-nav .nav-item {
+    margin: 0 10px; /* Reduce space between items */
+  }
+
+  .btn-signup {
+    width: 100px;
+    height: 40px; /* Smaller button for mobile devices */
+  }
+
+  .navbar-nav .nav-link {
+    font-size: 1rem; /* Adjust font size for medium screens */
+  }
+}
+
+@media (max-width: 767.98px) {
+  .navbar {
+    padding: 1rem 1.5rem; /* Further reduce padding for smaller screens */
+  }
+
+  .navbar-nav .nav-item {
+    margin: 0 8px; /* Further reduce space between items */
+  }
+
+  .navbar-nav .nav-link {
+    font-size: 0.9rem; /* Smaller font size for mobile */
+  }
+
+  .btn-signup {
+    width: 90px;
+    height: 36px; /* Further reduce button size */
+  }
+}
+
+@media (max-width: 575.98px) {
+  .navbar {
+    padding: 0.5rem 1rem; /* Minimal padding for extra-small screens */
+  }
+
+  .navbar-nav .nav-link {
+    font-size: 0.8rem; /* Even smaller font size for extra-small devices */
+  }
+
+  .btn-signup {
+    width: 80px;
+    height: 32px; /* Smallest button size */
+  }
+
+  .navbar-nav .nav-item {
+    margin: 0 5px; /* Minimal spacing between items */
+  }
+}
+
+@media only screen and (max-width: 1280px) and (min-width: 800px) {
+  /* Your styles for screens between 1280px and 800px */
+  .navbar {
+    padding: 1rem 2rem; /* Padding for larger screens */
+  }
+}
+
+
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: .1rem;
+        padding-left: .1rem;
+    }
+}

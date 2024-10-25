@@ -1,0 +1,91 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main section */
+.welcome-section {
+    background-color: #000;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Container */
+.welcome-section .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Title */
+.welcome-section h1 {
+    font-size: 7rem;
+    letter-spacing: 5px;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.welcome-section h1 span {
+    color: #1bff00;
+    background: linear-gradient(90deg, #1bff00, #faff00, #1bff00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Paragraph */
+.welcome-section p {
+    font-size: 1.25rem;
+    max-width: 800px;
+    margin: 20px auto 40px;
+}
+
+/* Button */
+.get-started-btn {
+    display: inline-block;
+    background-color: #d3ff00;
+    color: #000;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.get-started-btn:hover {
+    background-color: #b8db00;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .welcome-section h1 {
+        font-size: 2.5rem;
+    }
+
+    .welcome-section p {
+        font-size: 1rem;
+    }
+
+    .get-started-btn {
+        padding: 12px 25px;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .welcome-section h1 {
+        font-size: 2rem;
+    }
+
+    .welcome-section p {
+        font-size: 0.9rem;
+    }
+
+    .get-started-btn {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+}

@@ -1,0 +1,23 @@
+.card-body img {
+    width: 100%; /* Set fixed width */
+    height: 150px; /* Set fixed height */
+    object-fit: cover; /* Ensure the image covers the area while maintaining aspect ratio */
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+.card {
+    height: 100%; /* Ensure cards stretch to same height if content allows */
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center align items */
+    justify-content: center; /* Center content vertically */
+}
+
+.card-body {
+    flex: 1 1 auto;
+    padding: 0rem 1rem;
+    border-bottom: 2px solid black;
+}

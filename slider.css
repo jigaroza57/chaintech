@@ -1,0 +1,31 @@
+.card {
+  transition: transform 0.3s ease-in-out;
+}
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #000;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.explore-button {
+  background-color: #19ac5c;
+  color: white;
+  font-weight: bold;
+  border-radius: 20px;
+}
+.explore-button:hover {
+  background-color: #13562b;
+}
+
+@media (max-width: 768px) {
+  .carousel-inner .col-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
